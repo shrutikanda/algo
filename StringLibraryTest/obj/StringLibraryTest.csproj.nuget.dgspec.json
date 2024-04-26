@@ -1,37 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Source\\StringLibraryTest\\StringLibraryTest.csproj": {}
+    "c:\\Users\\ashutosh\\algo\\StringLibraryTest\\StringLibraryTest.csproj": {}
   },
   "projects": {
-    "c:\\Source\\StringLibraryTest\\StringLibraryTest.csproj": {
+    "c:\\Users\\ashutosh\\algo\\StringLibraryTest\\StringLibraryTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Source\\StringLibraryTest\\StringLibraryTest.csproj",
+        "projectUniqueName": "c:\\Users\\ashutosh\\algo\\StringLibraryTest\\StringLibraryTest.csproj",
         "projectName": "StringLibraryTest",
-        "projectPath": "c:\\Source\\StringLibraryTest\\StringLibraryTest.csproj",
-        "packagesPath": "C:\\Users\\SVerma04\\.nuget\\packages\\",
-        "outputPath": "c:\\Source\\StringLibraryTest\\obj\\",
+        "projectPath": "c:\\Users\\ashutosh\\algo\\StringLibraryTest\\StringLibraryTest.csproj",
+        "packagesPath": "C:\\Users\\ashutosh\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\ashutosh\\algo\\StringLibraryTest\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\SVerma04\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ashutosh\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/quest-mpm/_packaging/ODJRS/nuget/v3/index.json": {},
-          "https://quest-mpm.pkgs.visualstudio.com/Governance/_packaging/OnDemand-Governance/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -39,31 +32,32 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
-              "version": "[2.2.10, )"
+              "version": "[3.1.1, )"
             },
             "MSTest.TestFramework": {
               "target": "Package",
-              "version": "[2.2.10, )"
-            },
-            "Microsoft.Azure.Cosmos": {
-              "target": "Package",
-              "version": "[*, )"
+              "version": "[3.1.1, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.3.2, )"
+              "version": "[17.8.0, )"
             },
             "coverlet.collector": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -82,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
