@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ashutosh\\algo\\StringLibraryTest\\StringLibraryTest.csproj": {}
+    "C:\\Users\\ashutosh\\algo\\StringLibraryTest\\StringLibraryTest.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ashutosh\\algo\\StringLibraryTest\\StringLibraryTest.csproj": {
+    "C:\\Users\\ashutosh\\algo\\StringLibraryTest\\StringLibraryTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ashutosh\\algo\\StringLibraryTest\\StringLibraryTest.csproj",
+        "projectUniqueName": "C:\\Users\\ashutosh\\algo\\StringLibraryTest\\StringLibraryTest.csproj",
         "projectName": "StringLibraryTest",
-        "projectPath": "c:\\Users\\ashutosh\\algo\\StringLibraryTest\\StringLibraryTest.csproj",
+        "projectPath": "C:\\Users\\ashutosh\\algo\\StringLibraryTest\\StringLibraryTest.csproj",
         "packagesPath": "C:\\Users\\ashutosh\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ashutosh\\algo\\StringLibraryTest\\obj\\",
+        "outputPath": "C:\\Users\\ashutosh\\algo\\StringLibraryTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ashutosh\\AppData\\Roaming\\NuGet\\NuGet.Config"

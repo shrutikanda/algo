@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "odybeemO2iaamvg4udgl372oZ1CpU4B6wjcxzQX0/4BVZJieJZWjmNjhp5eeatM39yNUc8TWXQW2OttdXR5gHg==",
+  "dgSpecHash": "+R8u62YLSZPgnrTUE3iZdxUcgc1hRHdCSFWhu5Om6V4t+Bk7uMAWrPGT58q+nQNwarRqAcnY44APDqz0GgXZ7g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ashutosh\\algo\\StringLibraryTest\\StringLibraryTest.csproj",
+  "projectFilePath": "C:\\Users\\ashutosh\\algo\\StringLibraryTest\\StringLibraryTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ashutosh\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\ashutosh\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
