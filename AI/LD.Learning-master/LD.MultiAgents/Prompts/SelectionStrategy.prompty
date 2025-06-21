@@ -1,0 +1,21 @@
+Examine the last user message and the previous response.
+
+Choose from: 
+   Coordinator, 
+   Sales, 
+   ConversationAnalysis,
+   LoanDepot
+
+Rules:
+- If the user asked about a loan using a LoanId (e.g., “1_MTG_...”), choose Sales.
+- If the user mentions "conversation analysis", "chat analysis", "conversation insights", "transcript analysis", or provides a ConversationID — choose ConversationAnalysis
+- If the user mentions "LoanDepot Team Information"" — choose LoanDepot
+- If the user is replying to a previous Sales response and continues the loan conversation, choose Sales.
+- If the user is replying to a previous ConversationAnalysis response and continues the conversationAnalysis, choose ConversationAnalysis.
+- If the user asks a **general question** (e.g., “Tell me about LoanDepot”, “What do you do?”, "Hi" "Hello" etc.), choose Coordinator.
+- If Sales responds that they can't help and asks for a loan ID, and the user replies with a **non-loan** query, select Coordinator.
+- If unclear or unrelated to any active topic, select Coordinator.
+- If the last agent responded with data that fulfills the user request, do NOT switch agents.
+- If an agent has responded fully and no user input has occurred, let that agent remain idle.
+- Do NOT route back to Coordinator unless the user initiates a new, non-loan-related question.
+

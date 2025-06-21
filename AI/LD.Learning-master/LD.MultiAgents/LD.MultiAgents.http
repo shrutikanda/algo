@@ -1,0 +1,6 @@
+@LD.MultiAgents_HostAddress = http://localhost:5216
+
+GET {{LD.MultiAgents_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

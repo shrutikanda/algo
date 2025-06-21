@@ -1,0 +1,20 @@
+
+//###
+POST https://ldapi-sg1.loandepotdev.works/LLM-POC/openai/deployments/LD-Chat/chat/completions
+Content-Type: application/json
+api-key: 3995e126ae09492187fc672efaa3e20a
+
+{
+  "messages": [{"role": "user", "content": "Hello"}],
+  "model": "gpt-4"
+}
+
+###
+POST https://ld-llm-openai-poc.openai.azure.com/openai/deployments/text-embedding-3-large/embeddings?api-version=2023-05-15
+Content-Type: application/json
+api-key: c94f64b7a8e14874b94313a622463f4c
+
+{
+  "input": "Sample Document goes here"  
+}
+

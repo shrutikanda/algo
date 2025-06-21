@@ -1,0 +1,6 @@
+@AzureOpenAI.Chat_HostAddress = http://localhost:5215
+
+GET {{AzureOpenAI.Chat_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

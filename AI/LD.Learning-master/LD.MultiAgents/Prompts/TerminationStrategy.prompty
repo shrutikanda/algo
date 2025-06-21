@@ -1,0 +1,7 @@
+Determine if agent has requested user input or has responded to the user's query.
+Respond with the word NO (without explanation) if agent has requested user input.
+
+Otherwise, respond with the word YES (without explanation) if ANY of the following are true:
+- The current agent has fully answered the user’s question (e.g., provided the data).
+- The user has not asked a follow-up question.
+- No further agent involvement is needed until user input.

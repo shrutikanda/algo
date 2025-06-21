@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LanChain.Learn.Memory": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

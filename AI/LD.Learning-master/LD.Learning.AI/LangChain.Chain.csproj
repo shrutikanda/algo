@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="LangChain.NET" Version="0.0.2"/>
+    <PackageReference Include="LangChain.Providers.Azure" Version="0.17.0"/>
+    <PackageReference Include="LangChain" Version="0.17.0"/>
+  </ItemGroup>
+</Project>
